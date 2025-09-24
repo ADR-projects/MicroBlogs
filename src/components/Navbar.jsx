@@ -1,13 +1,18 @@
 import React from 'react'
-import {assets} from '../assets/assets'
+import { assets } from '../assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
-  return (
-    <div className='flex justify-between items-center py-5 mx-8 sm:mx-20 xl:mx-32'>
-      <img src={assets.logo} alt="logo" className='w-32 sm:w-44' />
-      <button>Login</button>
-    </div>
-  )
+const navigate = useNavigate()
+    return (
+        <div className='flex justify-between items-center py-4 mx-8 sm:mx-20 xl:mx-32'>
+            <img onClick={()=>navigate('/')} src={assets.logo} alt="logo" className='w-42 sm:w-55 cursor-pointer' />
+            <button onClick={()=>navigate('/admin')} className='flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-10 py-3'>
+                Login
+                <img src={assets.arrowIcon} alt="arrow" className='w-4 sm:w-5' />
+            </button>
+        </div>
+    )
 }
 
 export default Navbar
