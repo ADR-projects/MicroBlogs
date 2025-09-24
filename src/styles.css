@@ -1,0 +1,14 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lexend:wght@100..900&display=swap');
+@import "tailwindcss";
+* {
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* font-family: "DM Serif Text", serif;*/
+::-webkit-scrollbar{
+    display: none;
+}
+@theme{
+    --color-primary: #e07a5f;
+}
