@@ -11,7 +11,10 @@
  h1 {
    font-size: 3em;
  }
-
+.h1span{
+  font-size:1em;
+  font-weight: 550;
+}
  body {
    background-color: #e7ecef;
  }
@@ -22,6 +25,6 @@
  }
 
  @theme {
-   --color-primary: #000;
-   --color-secondary: #e85d04;
+   --color-primary: #3a5a40;
+   --color-secondary: #6a994e;
  }
