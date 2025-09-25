@@ -1,13 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
+import Newsletter from '../components/Newsletter'
 import Bloglist from '../components/Bloglist'
+import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
       <Navbar/>
       <Header/>
       <Bloglist/>
+      <Newsletter/>
+      <Footer/>
     </>
   )
 }

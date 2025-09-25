@@ -7,7 +7,9 @@
    font-size: medium;
    font-style: normal;
  }
-
+ h2{
+  font-size:2em;
+ }
  h1 {
    font-size: 3em;
  }
@@ -22,6 +24,9 @@
  /* font-family: "DM Serif Text", serif;*/
  ::-webkit-scrollbar {
    display: none;
+ }
+ .card{
+  font-size: xxx-small;
  }
 
  @theme {
