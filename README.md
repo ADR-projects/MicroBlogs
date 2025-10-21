@@ -1,2 +1,3 @@
 # WIP - MicroBlogs
-# Blogging + Connecting +
+# Blogging + Connecting + Profile-Building
+
